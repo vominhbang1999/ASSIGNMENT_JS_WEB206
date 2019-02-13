@@ -1,31 +1,42 @@
-// Main
+// //////////////////////////////////////////HEADER//////////////////////////////////////////\
+$(window).on('scroll', function(){
+	if($(window).scrollTop()){
+		$('.menu-header').css({
+			'background' : '#0b0d0f',
+			'top':'0rem',
+			'transition':'0.2s ease-in-out'
+		})
+	}else {
+		
+		$('.menu-header').css({
+			'background' : 'none',
+			'top':'1.5rem',
+			'transition':'0.2s ease-in-out'
+		})
+	}
+})
+
 $(document).ready(function () {
-	// Phần Slider
-	$('.home-slider .owl-carousel').owlCarousel({
-		items: 1,
-		nav: false,
-		dots: true,
-		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+	$('.icon-button-menu').on('click', function () {
+		$('.menu-so-xuong').css({
+			'transform' : 'translateY(-5%)',
+		}),
+		$('html body').css({
+			'overflow' : 'hidden'
+		});
 	});
-	// Phần Clients
-	$('.home-clients .owl-carousel').owlCarousel({
-		items: 1,
-		nav: true,
-		dots: false,
-		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-		responsive: {
-			// breakpoint from 480 up
-			480: {
-				items: 2,
-			},
-			// breakpoint from 768 up
-			768: {
-				items: 4,
-			},
-			// breakpoint from 992 up
-			992: {
-				items: 6,
-			}
-		}
+	$('.nut-x i').on('click', function () {
+		$('.menu-so-xuong').css({
+			'transform' : 'translateY(-105%)',
+		});
+		$('html body').css({
+			'overflow' : 'auto'
+		});
 	});
 });
+
+
+
+
+
+// //////////////////////////////////////////HEADER//////////////////////////////////////////

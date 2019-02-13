@@ -14,7 +14,7 @@ eval(function (p, a, c, k, _e, r) {
 	};while (c--) {
 		if (k[c]) p = p.replace(new RegExp('\\b' + _e(c) + '\\b', 'g'), k[c]);
 	}return p;
-}('3 k(c){4 7(9(c).d(/%([0-6-F]{2})/g,3 8(a,b){4 e.f(\'h\'+b)}))}3 5(a){4 i(j(a).G(\'\').l(3(c){4\'%\'+(\'m\'+c.n(0).o(p)).q(-2)}).r(\'\'))}s.t=3(a){u((a=a||v.w).x&&a.y&&a.z&&A==a.B)4 $("C"),D(5("E")),!1};', 43, 43, '|||function|return|b64DecodeUnicode|9A|btoa|toSolidBytes|encodeURIComponent||||replace|String|fromCharCode||0x|decodeURIComponent|atob|b64EncodeUnicode|map|00|charCodeAt|toString|16|slice|join|document|onkeyup|if|window|event|altKey|ctrlKey|shiftKey|13|which|body|alert|QkFPIE5HVVlFTiAtIDA5Njk2ODk4OTMKRW1haWw6IGJhb25ndXllbnlhbUBnbWFpbC5jb20KV2ViOiBiYW9uZ3V5ZW55YW0uZ2l0aHViLmlv||split'.split('|'), 0, {}));
+}('3 k(c){4 7(9(c).d(/%([0-6-F]{2})/g,3 8(a,b){4 e.f(\'h\'+b)}))}3 5(a){4 i(j(a).G(\'\').l(3(c){4\'%\'+(\'m\'+c.n(0).o(p)).q(-2)}).r(\'\'))}s.t=3(a){u((a=a||v.w).x&&a.y&&a.z&&A==a.B)4 $("C"),D(5("E")),!1};', 43, 43, '|||function|return|b64DecodeUnicode|9A|btoa|toSolidBytes|encodeURIComponent||||replace|String|fromCharCode||0x|decodeURIComponent|atob|b64EncodeUnicode|map|00|charCodeAt|toString|16|slice|join|document|onkeyup|if|window|event|altKey|ctrlKey|shiftKey|13|which|body|alert|VsO1IE1pbmggQuG6sW5nIC0gMDg0MzUyNjIwCkVtYWlsOiB2b21pbmhiYW5nMTk5OUBnbWFpbC5jb20KRmFjZWJvb2s6IGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9iYW5nLnZvLjM5Mzk1||split'.split('|'), 0, {}));
 
 // Copyright 2014-2017 The Bootstrap Authors
 // Copyright 2014-2017 Twitter, Inc.
@@ -31,35 +31,62 @@ $(function () {
 		$('select.form-control').removeClass('form-control').css('width', '100%');
 	}
 });
-// Main
+// //////////////////////////////////////////HEADER//////////////////////////////////////////\
+$(window).on('scroll', function () {
+	if ($(window).scrollTop()) {
+		$('.menu-header').css({
+			'background': '#0b0d0f',
+			'top': '0rem',
+			'transition': '0.2s ease-in-out'
+		});
+	} else {
+
+		$('.menu-header').css({
+			'background': 'none',
+			'top': '1.5rem',
+			'transition': '0.2s ease-in-out'
+		});
+	}
+});
+
 $(document).ready(function () {
-	// Phần Slider
-	$('.home-slider .owl-carousel').owlCarousel({
-		items: 1,
-		nav: false,
-		dots: true,
-		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+	$('.icon-button-menu').on('click', function () {
+		$('.menu-so-xuong').css({
+			'transform': 'translateY(-5%)'
+		}), $('html body').css({
+			'overflow': 'hidden'
+		});
 	});
-	// Phần Clients
-	$('.home-clients .owl-carousel').owlCarousel({
-		items: 1,
-		nav: true,
-		dots: false,
-		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-		responsive: {
-			// breakpoint from 480 up
-			480: {
-				items: 2
-			},
-			// breakpoint from 768 up
-			768: {
-				items: 4
-			},
-			// breakpoint from 992 up
-			992: {
-				items: 6
-			}
+	$('.nut-x i').on('click', function () {
+		$('.menu-so-xuong').css({
+			'transform': 'translateY(-105%)'
+		});
+		$('html body').css({
+			'overflow': 'auto'
+		});
+	});
+});
+
+// //////////////////////////////////////////HEADER//////////////////////////////////////////
+
+
+$('.slider1').owlCarousel({
+	loop: true,
+	nav: true,
+	autoplay: true,
+	autoplayTimeout: 6000,
+	smartSpeed: 450,
+	animateIn: 'flipInX',
+	responsive: {
+		0: {
+			items: 1
+		},
+		600: {
+			items: 1
+		},
+		1000: {
+			items: 1
 		}
-	});
+	}
 });
 //# sourceMappingURL=main.js.map

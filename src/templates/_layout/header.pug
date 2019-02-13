@@ -1,28 +1,72 @@
 <!-- ////////////// HEADER ////////////// -->
-header.bg-light
-	.container
-		nav.navbar.navbar-expand-lg.navbar-light
-			a.navbar-brand(href="#") 
-				img(src="./img/logo.png", alt="Logo")
-			//- Đây là nút sẽ hiển thị trong mobile
-			button.navbar-toggler(type="button" data-toggle="collapse" data-target="#fullStackMenu" aria-controls="fullStackMenu" aria-expanded="false" aria-label="Toggle navigation")
-				span.fa.fa-bars
-			#fullStackMenu.collapse.navbar-collapse
-				//- Thuộc tính '.mr-auto' này sẽ đẩy me nu về bên phải 
-				.mr-auto
-				ul.navbar-nav
-					li.nav-item.active
-						a.nav-link(href="index.html")
-							| Trang chủ
+header
+	.menu-header
+		.menu-so-xuong
+			ul
+				li.nut-x
+					i.fa.fa-times-circle
+				li
+					a.nav-link(href='#') Home 
+				li
+					a.nav-link(href='#') Menu
+				li
+					a.nav-link(href='#') Reservation
+				li
+					a.nav-link(href='#') Shop
+				li
+					a.nav-link(href='#') News
+				li
+					a.nav-link(href='#') Contact
+		.menu
+			.menu-logo
+				a.logo-text(href='#') Danny's
+			nav.navbar.navbar-expand-lg.navbar-light.main-menu
+				#navbarNav.collapse.navbar-collapse.text-menu
+					ul.navbar-nav
+						.mr-auto
+						li.nav-item.active
+							a.nav-link(href='#') Home 
+						li.nav-item
+							a.nav-link(href='#') Menu
+						li.nav-item
+							a.nav-link(href='#') Reservation
+						li.nav-item
+							a.nav-link(href='#') Shop
+						li.nav-item
+							a.nav-link(href='#') News
+						li.nav-item
+							a.nav-link(href='#') Contact
+		.menu-shopping-cart
+			.icon-button-menu
+				span.mot
+				span.hai
+				span.ba
+			.shopping-cart
+				ul
+					li.nav-item.icon-shoping-cart
+						a.nav-link(href='#')
+							i.fa.fa-shopping-cart
+					li.nav-item.Item
+						a.nav-link(href='#') Item
+							br
+							span 0
+					li.nav-item.Total
+						a.nav-link(href='#') Total
+							br
+							span 0
 					li.nav-item.dropdown
-						a#dropdownFS.nav-link.dropdown-toggle(href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Gian hàng
-						.dropdown-menu(aria-labelledby="dropdownFS")
-							a.dropdown-item(href="#") Nam
-							a.dropdown-item(href="#") Nữ
-					li.nav-item
-						a.nav-link(href="services.html") Dịch vụ
-					li.nav-item
-						a.nav-link(href="about.html") Về chúng tôi
-					li.nav-item
-						a.nav-link(href="contact.html") Liên hệ
-<!-- ////////////// HEADER ////////////// -->
+						a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='false', aria-expanded='false')
+				.info-shoping
+					.details
+						p No product
+			.reservation
+				ul
+					li.nav-item.active
+						a.nav-link(href='#') Reservation
+			
+
+	//- 	.menu
+	//- 		
+	//- 		
+	//- 			
+

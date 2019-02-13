@@ -1,67 +1,338 @@
-/////////////////////////////////
-// Phần Slider
-/////////////////////////////////
-.home-slider
-	.owl-carousel
-		// Phần Slider
-		.item
-			position: relative
-			.title
-				+pad(2rem 0)
-				height: 100%
-				width: 100%
-				display: flex
-				align-items: center
-			+media-breakpoint-up(md)
-				.title
-					+pos(abs, 0 null null 0)
-					color: $whites
-					+text-shadow()
-					h2
-						+fz(3rem)
-					p 
-						+fz(1.5rem)
-						+lh(2rem)
-		// Phần Control
-		.owl-dots
-			margin-bottom: 2rem
-/////////////////////////////////
-// Phần News
-/////////////////////////////////
+// //////////////////////////////////////////Sider //////////////////////////////////////////
+.slider
+	height: 100%
+	.slider1
+		position: relative
+		transition: 1s all ease-in-out
+		position: relative
+		height: 100%
+		.item1,.item2,.item3,.item4,.item5
+			background-repeat: no-repeat
+			background-size: cover
+			background-position: center
+			height: 700px
+		.item1
+			background-image: url('../img/home_slide_1.jpg')
+		.item2
+			background-image: url('../img/home_slide_2.jpg')
+		.item3
+			background-image: url('../img/home_slide_3.jpg')
+		.item4
+			background-image: url('../img/home_slide_4.jpg')
+		.item5
+			background-image: url('../img/home_slide_5.jpg')
+		.owl-item
 
-.home-news
-	.item 
-		figure
-			.blockimg
-				+bor-rad(10px)
-				overflow: hidden
-				img
-					width: 100%
-			figcaption 
-				margin-top: 1rem
-				h3 
-					+fz(1.1rem)
-					margin-bottom: 0
-				time 
-					+fz(.85rem)
-					color: darken($whites,30%)
-				p 
-					margin-top: .5rem
-					color: darken($whites,50%)
-/////////////////////////////////
-// Phần News
-/////////////////////////////////
-
-.home-clients
-	.owl-carousel
-		.item 
-			+pad(.5rem)
-		// Phần Control
 		.owl-nav
-			margin-bottom: 2rem
-			button 
-				i 
-					display: block
-					width: 2rem
-					height: 2rem
-					+lh(2rem)
+			position: absolute
+			top: 40%
+			transform: translateY(50%)
+			right: 0rem
+			+media-breakpoint-down(md)
+				top: 30%
+			.owl-prev , .owl-next
+				background-color: #0a0b0cad !important
+				width: 4rem
+				height: 4rem
+				+media-breakpoint-down(sm)
+					width: 3rem
+					height: 3rem
+				border-radius: 50%
+				outline: aliceblue
+				&:hover
+					background-color: #1a1c20 !important
+				span
+					color: white
+					font-size: 20px
+		.owl-dots 
+			position: absolute
+			top: 40%
+			+media-breakpoint-down(md)
+				top: 30%
+			+media-breakpoint-down(sm)
+				top: 20%
+			transform: translateY(50%)
+			left: 2rem
+			display: inline-grid
+			.owl-dot
+				outline: aliceblue
+				span
+					width: 2.5rem
+					height: 0.1rem
+					+media-breakpoint-down(md)
+						width: 1.5rem
+						height: 0.1rem
+					background-color: white !important
+					margin: 0.7rem 0rem
+			.active
+				span
+					width: 5.5rem
+					height: 0.1rem
+					+media-breakpoint-down(md)
+						width: 3.5rem
+						height: 0.1rem
+					background-color: #cd9933 !important
+					transition: 0.5s all ease-in-out
+					margin: 0.7rem 0rem
+					outline: aliceblue
+// //////////////////////////////////////////Sider //////////////////////////////////////////
+// //////////////////////////////////////////LOGO///////////////////////////////////////////
+.logo-slider
+	position: absolute
+	z-index: 12
+	top: 40%
+	left: 40%
+	+media-breakpoint-down(md)
+		top: 35%
+		left: 40%
+		width: 250px
+		height: 250px
+	+media-breakpoint-down(sm)
+		top: 30%
+		left: 30%
+		transform: translateX(0%)
+		width: 150px
+		height: 150px
+	
+// //////////////////////////////////////////LOGO///////////////////////////////////////////
+// //////////////////////////////////////////WELLCOMe///////////////////////////////////////////
+.welcome-danny
+	position: relative
+	.col-sm-12.col-md-12.col-lg-5
+		margin-top: 5rem
+	.hangwellcome1
+		@media (max-width: 1000px)
+			display: none
+		.hinh1
+			position: absolute
+			right: 0rem
+			top: 2rem
+		.hinh2
+			position: absolute
+			top: 7rem
+	.text-wellcome
+		h4
+			font-family: "Great Vibes", Helvetica, Arial, sans-serif
+			font-size: 56px
+			line-height: 66px
+			color: #999966
+		h3
+			font-family: "Poppins", Helvetica, Arial, sans-serif
+			font-size: 36px
+			line-height: 46px
+			font-weight: 600
+			text-transform: uppercase
+		h5
+			font-size: 18px
+			line-height: 30px
+			font-family: inherit
+			color: #0000008f
+		p 
+			font-size: 15px
+			line-height: 30px
+			font-family: inherit
+			color: #0000008f
+		a
+			text-decoration: none
+			border: 1px solid black
+			border-top-width: 0px
+			border-right-width: 0px
+			border-bottom-width: 0px
+			border-left-width: 4px
+			padding: 1.5rem
+			span
+				font-weight: bold
+				color: black
+				font-size: 15px
+				margin-top: 1rem
+		&:hover
+			a
+				border: 0px solid #cd9933
+				border-top-width: 0px
+				border-right-width: 0px
+				border-bottom-width: 0px
+				border-left-width: 4px
+				span
+					color: #cd9933
+// //////////////////////////////////////////WELLCOMe///////////////////////////////////////////
+// /////////////////////////////////////////Restaurant-Menu////////////////////////////////////////////
+.restaurant-menu
+	margin-top: 10rem
+	background-color: #16191e
+	.menu-restaurant-text
+		margin: 5rem 2rem 0rem 7rem
+		+media-breakpoint-down(sm)
+			margin: 2rem 0rem 0rem 1rem
+		h4
+			font-family: "Great Vibes", Helvetica, Arial, sans-serif
+			font-size: 56px
+			line-height: 66px
+			color: #999966
+		h3
+			font-family: "Poppins", Helvetica, Arial, sans-serif
+			font-size: 36px
+			line-height: 46px
+			font-weight: 600
+			text-transform: uppercase
+			color: white
+		h5
+			font-size: 16px
+			line-height: 30px
+			font-family: inherit
+			color: #ffffff3b
+			padding-right: 3rem
+		a
+			text-decoration: none
+			border: 1px solid white
+			border-top-width: 0px
+			border-right-width: 0px
+			border-bottom-width: 0px
+			border-left-width: 4px
+			padding: 1rem
+			span
+				font-weight: bold
+				color: white
+				font-size: 15px
+				margin-top: 1rem
+		&:hover
+			a
+				border: 0px solid #cd9933
+				border-top-width: 0px
+				border-right-width: 0px
+				border-bottom-width: 0px
+				border-left-width: 4px
+				span
+					color: #cd9933
+	.menu-restaurant-img
+		margin-top: 1rem
+		+media-breakpoint-down(sm)
+			margin-top: 2rem
+// /////////////////////////////////////////Restaurant-Menu////////////////////////////////////////////
+///////////////////////////////////////////VIET NAM FOOD ///////////////////////////////////////////// 
+.vietnam-specialities
+	position: relative
+	margin: 5rem 0rem 0rem 0rem
+	.vn-food
+		+media-breakpoint-down(md)
+			display: none
+		.vn-food-mot
+			position: absolute
+			left: -8rem
+		.vn-food-hai
+			position: absolute
+			top: 13rem
+			left: 10rem
+	.vn-food-text
+		padding-left: 8rem
+		+media-breakpoint-down(md)
+			padding-left: 2rem
+		.vn-food-title
+			h4
+				font-family: "Great Vibes", Helvetica, Arial, sans-serif
+				font-size: 56px
+				line-height: 66px
+				color: #999966
+			h3
+				font-family: "Poppins", Helvetica, Arial, sans-serif
+				font-size: 34px
+				line-height: 46px
+				font-weight: 600
+				text-transform: uppercase
+				color: #000000cf
+		.vn-food-text-content
+			padding-top: 2rem
+			p 
+				font-family: "Poppins", Helvetica, Arial, sans-serif
+				font-weight: 400
+				font-size: 15px
+				line-height: 30px
+		.vn-food-view
+			a
+				text-decoration: none
+				border: 1px solid #000000d9
+				border-top-width: 0px
+				border-right-width: 0px
+				border-bottom-width: 0px
+				border-left-width: 4px
+				padding: 1rem
+				span
+					font-weight: bold
+					color: #000000d9
+					font-size: 15px
+					margin-top: 1rem
+			&:hover
+				a
+					border: 0px solid #cd9933
+					border-top-width: 0px
+					border-right-width: 0px
+					border-bottom-width: 0px
+					border-left-width: 4px
+					span
+						color: #cd9933
+
+
+
+
+
+	
+///////////////////////////////////////////VIET NAM FOOD ///////////////////////////////////////////// 
+/////////////////////////////////////////// FOOD TODAY///////////////////////////////////////////// 
+.food-specialities
+	margin-top: 5rem
+	background-image: url('../img/home_datsan_1.jpg')
+	background-size: cover
+	background-attachment: fixed
+	background-position: center
+	min-height: 500px
+	display: flex
+	justify-content: center
+	align-items: center
+	.food-today-text
+		text-align: center
+		h4
+			font-family: "Great Vibes", Helvetica, Arial, sans-serif
+			font-size: 56px
+			line-height: 66px
+			color: #999966
+		h3
+			font-family: "Poppins", Helvetica, Arial, sans-serif
+			font-size: 34px
+			line-height: 46px
+			font-weight: 600
+			text-transform: uppercase
+			color: white
+		p 
+			font-family: 'Playfair Display', serif
+			font-size: 20px
+			color: white
+		.read-more
+			text-align: center
+			width: 100%
+			a
+				text-decoration: none
+				border: 1px solid white
+				border-top-width: 0px
+				border-right-width: 0px
+				border-bottom-width: 4px
+				border-left-width: 0px
+				padding: 1rem
+				span
+					font-weight: bold
+					color: white
+					font-size: 15px
+					margin-top: 1rem
+			&:hover
+				a
+					border: 0px solid #cd9933
+					border-top-width: 0px
+					border-right-width: 0px
+					border-bottom-width: 4px
+					border-left-width: 0px
+					span
+						color: #cd9933
+
+
+			
+
+
+///////////////////////////////////////////FOOD TODAY ///////////////////////////////////////////// 

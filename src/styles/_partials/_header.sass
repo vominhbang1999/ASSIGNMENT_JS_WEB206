@@ -1,10 +1,196 @@
+
 header
-	.navbar
-		+pad(null 0)
-	.navbar-brand
-		img 
-			max-height: 2rem
-	+media-breakpoint-up(md)
-		.navbar-brand
-			img 
-				max-height: 3rem
+	position: relative
+	.menu-header
+		position: absolute
+		z-index: 100
+		top: 1.5rem
+		right: 0
+		width: 100%
+		position: fixed
+		padding: 0.3rem 0rem
+		.menu
+			display: flex
+			padding: 0.2rem
+			// background-color: #1a1c20
+			.menu-logo
+				.logo-text
+					color: white
+					font-family: "Great Vibes", Helvetica, Arial, sans-serif
+					font-size: 35px
+					font-weight: bold
+					text-decoration: none
+					padding-left: 2rem
+					&:hover
+						color: white
+			.main-menu
+				@media (min-width: 1120px)
+					margin-left: 6rem
+				+media-breakpoint-down(md)
+					display: none
+					button
+						border: 1px solid white
+						padding: 1rem
+						position: absolute
+				.text-menu
+					.nav-item
+						@media (min-width: 1270px)
+							padding: 0.1rem 1.5rem
+						@media (max-width: 1270px)
+							padding: 0.1rem 1rem
+						.nav-link
+							font-family: Montserrat
+							font-size: 12px
+							line-height: 22px
+							font-weight: 500
+							color: #ffffff
+							letter-spacing: 2px
+							text-transform: uppercase
+
+		.menu-shopping-cart
+			display: flex
+			position: absolute
+			top: 0rem
+			right: 2rem
+			margin: 0.3rem 0rem
+			.icon-button-menu
+				position: absolute
+				width: 50px
+				height: 50px
+				right: 7rem
+				@media (min-width: 992px)
+					display: none
+				span
+					position: absolute
+					width: 30px
+					height: 3px
+					background: white
+					right: 0.2rem
+				.mot
+					top: 1rem
+				.hai
+					top: 1.8rem
+				.ba
+					top: 2.6rem
+			.shopping-cart
+				background-color: #1a1c20
+				height: 58px
+				margin-left: 1rem
+				padding: 0
+
+				ul
+					display: flex
+					list-style-type: none
+					padding-left: 0
+					+media-breakpoint-down(md)
+						.Total,.Item
+							display: none
+					.icon-shoping-cart
+						display: flex
+						justify-content: center
+						align-items: center
+						height: 58px
+						i
+							font-size: 25px
+					.dropdown
+						display: flex
+						justify-content: center
+						align-items: center
+						height: 58px
+						a
+							font-size: 12px
+					li
+						a
+							font-family: Montserrat
+							font-size: 8px
+							line-height: 22px
+							font-weight: 500
+							color: #ffffff
+							letter-spacing: 2px
+							text-transform: uppercase
+							text-align: center
+					
+				.info-shoping
+					height: 0px
+					p
+						font-size: 0
+				&:hover
+					.info-shoping
+						position: absolute
+						display: block
+						transition: 1s all ease-in-out
+						top: 4.1rem
+						right: 0%
+						width: 347px 
+						height: 60px
+						background-color: #1a1c20
+						color: white
+						display: flex
+						justify-content: center
+						align-items: center
+						p
+							display: flex
+							justify-content: center
+							align-items: center
+							font-size: 15px
+						.details
+							width: 100%
+							border-top: 1px solid #797272
+							border-bottom: 1px solid #797272
+							transition: 1s all ease-in-out
+			.reservation
+				+media-breakpoint-down(lg)
+					display: none
+				ul
+					display: flex
+					justify-content: center
+					align-items: center
+					background-color: #cd9933
+					list-style-type: none
+					margin: 0
+					padding: 0
+					height: 58px
+					li
+						a
+							font-family: Montserrat
+							font-size: 12px
+							font-weight: 500
+							color: #0b0d0f
+							letter-spacing: 2px
+							text-transform: uppercase
+			
+// //////////////////////////////////////////MENU XỔ/////////////////////////////////////////////////////////////
+.menu-so-xuong
+	position: absolute
+	z-index: 999
+	width: 100%
+	height: 700px
+	transition: 0.5s all ease-in-out
+	transform: translateY(-105%)
+	ul
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.95))
+		list-style-type: none
+		padding-left: 0
+		padding-top: 6rem
+		height: 100%
+		.nut-x
+			transition: 1s all ease-in-out
+			i
+				font-size: 30px
+				color: white
+				margin-left: 80%
+		li
+			width: 100%
+			height: 50px
+			display: flex
+			justify-content: center
+			align-items: center
+			a
+				color: white
+				font-size: medium
+
+
+
+
+
+// //////////////////////////////////////////MENU XỔ/////////////////////////////////////////////////////////////

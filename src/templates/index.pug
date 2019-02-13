@@ -9,70 +9,96 @@ block variables
 //- Phần khai báo body
 block body
 	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
-	section.home-slider
-		.owl-carousel.owl-theme
-			.item
-				img(src="./img/home_slider_1.jpg", alt="")
-				.title
-					.container
-						.row
-							.col-md-7
-								h2 Chúng tôi là FullStack Vietnam
-								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
-			.item
-				img(src="./img/home_slider_1.jpg", alt="")
-				.title
-					.container
-						.row
-							.col-md-7
-								h2 Chúng tôi là FullStack Vietnam
-								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
-			.item
-				img(src="./img/home_slider_1.jpg", alt="")
-				.title
-					.container
-						.row
-							.col-md-7
-								h2 Chúng tôi là FullStack Vietnam
-								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
-	section.home-news
+	section.slider
+		.slider1.owl-carousel.owl-theme
+			.item1
+			.item2
+			.item3
+			.item4
+			.item5
+		.logo-slider
+			.logo
+				figure
+					img.img-fluid(src="img/home_logo.png", alt="")
+	section.welcome-danny.mt-5
 		.container
 			.row
-				.col-md-4.item
-					figure
-						.blockimg
-							img(src="./img/home_news_1.jpg", alt="", srcset="")
-						figcaption
-							h3 
-								a(href="#") Chúng tôi là FullStack Vietnam
-							time 22/06/2018
-							p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
-				.col-md-4.item
-					figure
-						.blockimg
-							img(src="./img/home_news_2.jpg", alt="", srcset="")
-						figcaption
-							h3 
-								a(href="#") Chúng tôi là FullStack Vietnam
-							time 22/06/2018
-							p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
-				.col-md-4.item
-					figure
-						.blockimg
-							img(src="./img/home_news_3.jpg", alt="", srcset="")
-						figcaption
-							h3 
-								a(href="#") Chúng tôi là FullStack Vietnam
-							time 22/06/2018
-							p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
-	section.home-clients.mt-5
+				.col-sm-0.col-md-0.col-lg-6.hangwellcome1
+					figure.hinh1
+						img.img-fluid(src="img/home_wellcome_2.jpg", alt="")
+					figure.hinh2
+						img.img-fluid(src="img/home_wellcome_1.jpg", alt="")
+					
+				.col-sm-0.col-md-0.col-lg-1
+				.col-sm-12.col-md-12.col-lg-5
+					fincagtion.text-wellcome
+						h4 Wellcome at
+						h3 DANNY'S RESTAURANT
+						h5 “Action ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate”.
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+						.row.mt-5
+							.col
+								a.mt-5(href="about.html")
+									span ABOUT US
+	section.restaurant-menu
+		.container-fluid
+			.row
+				.col-sm-6
+					.menu-restaurant-text
+						h4 Restaurant
+						h3 MENU
+						.row
+							.col-sm-6
+								h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolores optio odit, illo ut porro rerum odio facere!
+							.col-sm-6
+								h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolores optio odit, illo ut porro rerum odio facere!
+						.row.mt-5
+							.col
+								a.mt-5(href="about.html")
+									span WHAT'S ON THE MENU 
+
+						
+
+				.col-sm-6
+					figure.menu-restaurant-img
+						img.img-fluid(src="img/home_menu_1.jpg", alt="")
+	section.vietnam-specialities
+		.container-fluid
+			.row
+				.col-sm-0.col-md-0.col-lg-6.vn-food
+					figure.vn-food-mot
+						img.img-fluid(src="img/home_vietnam_2.jpg", alt="")
+					figure.vn-food-hai
+						img.img-fluid(src="img/home_vietnam_1.jpg", alt="")
+				.col-sm-12.col-md-12.col-lg-6.vn-food-text
+					.row
+						.vn-food-title
+							h4 Vietnam
+							h3 SPECIALITIES
+					.row.vn-food-text-content
+						.col-sm-6
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat cumque velit odio sunt laborum assumenda adipisci natus temporibus accusamus saepe quia commodi eaque porro labore, eveniet fugit quisquam ipsa similique.Lorem ipsum dolor, sit amet p consectetur adipisicing elit. Iure, quaerat.
+						.col-sm-6
+							p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, quisquam animi quas deserunt soluta ex reiciendis harum sint suscipit?. Lorem ipsum dolor, sit amet p consectetur adipisicing elit. Iure, quaerat.Lorem ipsum dolor, sit amet p consectetur adipisicing elit. Iure, quaerat.
+					.row.mt-5.vn-food-view
+							.col
+								a.mt-5(href="about.html")
+									span VIEW ALL
+	section.food-specialities
+		.food-today-text
+			h4 La creme de la creme
+			h3 TODAY'S SPECIALITY
+			p Oven Roasted duck with special sousage
+			p $25.00
+			.read-more.mt-5
+				a.mt-5(href="about.html")
+					span READ MORE
+	section.menu-cart
 		.container
 			.row
-				.col
-					.owl-carousel.owl-theme
-						- for(x=1;x<10;x++)
-							.item
-								if (x < 7)
-									img(src="./img/clients_"+x+".png", alt="")
-								else
-									img(src="./img/clients_"+(x-3)+".png", alt="")
+				.col-sm-3
+				.col-sm-9
+
+
+
+
