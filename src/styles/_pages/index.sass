@@ -336,3 +336,284 @@
 
 
 ///////////////////////////////////////////FOOD TODAY ///////////////////////////////////////////// 
+///////////////////////////////////////////MENU CART///////////////////////////////////////////// 
+.menu-cart
+	position: relative
+	background-color: #efefef
+	.menu-food-cart
+		position: absolute
+		top: -4rem
+		background: white
+		width: 90%
+		.menu-food-title
+			margin-top: 6rem
+			p 
+				font-family: "Poppins", Helvetica, Arial, sans-serif
+				font-size: 14px
+				line-height: 24px
+				font-weight: 600
+				letter-spacing: 4px
+				text-transform: uppercase
+				text-align: center
+			h4
+				font-family: "Poppins", Helvetica, Arial, sans-serif
+				font-size: 36px
+				line-height: 46px
+				font-weight: 600
+				text-transform: uppercase
+				text-align: center
+		.menu-food-cart-mot
+			list-style-type: none
+			text-align: center
+			margin-top: 5rem
+			li
+				a
+					font-family: "Poppins", Helvetica, Arial, sans-serif
+					font-size: 12px
+					line-height: 22px
+					font-weight: 600
+					letter-spacing: 4px
+					text-transform: uppercase
+					color: black
+				&:hover
+					a
+						color: #999966
+	.menu-cart-product
+		padding: 0
+		+media-breakpoint-down(md)
+			margin-top: 40rem
+		.product-colum-one
+			margin-right: 3rem
+			+media-breakpoint-down(md)
+				margin-right: 0rem
+			.all-product
+				padding: 0rem 
+				margin-bottom: -1rem
+				.product-details
+					position: relative
+					overflow: hidden
+					margin-top: 0.2rem
+					height: 96%
+					figure
+						img
+							width: 99%
+					&:hover
+						img
+							outline: 3.5px solid  #cd9933
+							+media-breakpoint-down(sm)
+								outline: 0px solid  #cd9933
+					figcaption
+						position: absolute
+						top: 0
+						width: 99%
+						height: 99.1%
+						+media-breakpoint-down(sm)
+							height: 100%
+						text-align: center
+						transform: translateY(100%)
+						transition: 0.5s all ease-in-out
+						a
+							color: white
+							padding: 1rem
+							border: 2px solid white
+							display: flex
+							justify-content: center
+							align-items: center
+							margin: 8rem 6rem 5rem 6rem
+							font-weight: 500
+						p
+							font-family: "Poppins", Helvetica, Arial, sans-serif
+							font-size: 18px
+							color: #fff
+							font-weight: 400
+							line-height: 1.3
+						.second
+							color: #cd9933
+					&:hover
+						figcaption
+							transform: translateY(0%)
+							background: linear-gradient(0deg, #232222e6, #1e1e2147)
+
+///////////////////////////////////////////MENU CART///////////////////////////////////////////// 
+///////////////////////////////////////////FEEDBACK USER///////////////////////////////////////////// 
+.feedback-user
+	background-color: #efefef
+	padding-top: 10rem
+	.feedback-title
+		width: 100%
+		text-align: center
+		h4
+			font-family: "Great Vibes", Helvetica, Arial, sans-serif
+			font-size: 56px
+			line-height: 66px
+			text-align: center
+			color: #999966
+		h3
+			font-family: "Poppins", Helvetica, Arial, sans-serif
+			font-size: 36px
+			line-height: 46px
+			font-weight: 600
+			text-transform: uppercase
+			text-align: center
+			color: #333333
+	.slider2
+		margin: 2rem 0rem 8rem 2rem
+		+media-breakpoint-down(md)
+			margin: 0rem
+		p
+			font-family: "Playfair Display", Helvetica, Arial, sans-serif
+			font-size: 24px
+			line-height: 34px
+			text-align: center
+			margin: 0rem 4rem
+			+media-breakpoint-down(sm)
+				font-size: 16px
+		.owl-nav
+			position: absolute
+			top: -10%
+			width: 100%
+			.owl-prev,.owl-next
+				position: absolute
+				outline: 0
+				span
+					font-size: 45px
+			.owl-prev
+				left: -1rem
+			.owl-next
+				right: -1rem
+			+media-breakpoint-down(sm)
+				.owl-prev
+					left: 1rem
+				.owl-next
+					right: 1rem
+			&:hover
+				.owl-prev,.owl-next
+					background-color: #efefef
+					span
+						color: #212529
+
+///////////////////////////////////////////FEEDBACK USER///////////////////////////////////////////// 
+///////////////////////////////////////////ADDRESS RESTAURANT///////////////////////////////////////////// 
+.address-restaurant
+	.text-address
+		background-image: url('../img/home_datphong_2.jpg')
+		min-height: 600px
+		background-size: cover
+		background-position: center
+		text-align: center
+		position: relative
+		.text-address-hai
+			width: 100%
+			height: 100%
+			padding: 8rem 0rem 0rem 0rem
+			background-color: #000000b0
+			position: absolute
+			left: 0
+		h3 
+			font-family: "Poppins", Helvetica, Arial, sans-serif
+			font-size: 36px
+			line-height: 46px
+			font-weight: 600
+			text-transform: uppercase
+			text-align: center
+			color: white
+		p
+			font-family: "Poppins", Helvetica, Arial, sans-serif
+			font-size: 12px
+			line-height: 40px
+			font-weight: 400
+			letter-spacing: 4px
+			text-transform: uppercase
+			text-align: center
+			color: white
+		.abouts-us
+			margin: 0
+			a
+				text-decoration: none
+				border: 1px solid white
+				border-top-width: 0px
+				border-right-width: 0px
+				border-bottom-width: 0px
+				border-left-width: 4px
+				padding: 1rem
+				span
+					font-weight: bold
+					color: white
+					font-size: 15px
+					margin-top: 1rem
+			&:hover
+				a
+					border: 0px solid #cd9933
+					border-top-width: 0px
+					border-right-width: 0px
+					border-bottom-width: 0px
+					border-left-width: 4px
+					span
+						color: #cd9933
+	.map-address
+		position: relative
+		.map-address-hai
+			height: 600px
+			width: 100%
+			position: absolute
+			right: 0
+
+///////////////////////////////////////////ADDRESS RESTAURANT///////////////////////////////////////////// 
+///////////////////////////////////////////SUBSCRIBE RESTAURANT///////////////////////////////////////////// 
+.subscribe-restaurant,.subscribe-restaurant-menu
+	min-height: 400px
+	background-color: #16191e
+	+media-breakpoint-down(sm)
+		margin-top: 40rem 
+	.text-subscribe-restaurant
+		padding-top: 8rem
+		h4
+			font-family: "Great Vibes", Helvetica, Arial, sans-serif
+			font-size: 56px
+			line-height: 66px
+			text-align: center
+			color: #999966
+		h3
+			font-family: "Poppins", Helvetica, Arial, sans-serif
+			font-size: 36px
+			line-height: 46px
+			font-weight: 600
+			text-transform: uppercase
+			text-align: center
+			color: white
+		p 
+			font-family: "Playfair Display", Helvetica, Arial, sans-serif
+			font-size: 18px
+			line-height: 28px
+			letter-spacing: 2px
+			text-align: center
+			color: white
+		img
+			position: absolute
+			top: 30%
+			left: 35%
+			+media-breakpoint-down(sm)
+				left: 10%
+	.form-subscribe-restaurant
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-top: 2rem
+		.form-subscribe
+			width: 350px
+			input
+				height: 4rem
+			.input-group-append
+				button
+					padding: 1rem
+					background-color: #cd9933
+					border: 1px solid #cd9933
+					color: white
+					font-weight: 600
+					letter-spacing: 2px
+					text-transform: uppercase
+
+.subscribe-restaurant-menu
+	+media-breakpoint-down(sm)
+		margin-top: 2rem 
+///////////////////////////////////////////SUBSCRIBE RESTAURANT///////////////////////////////////////////// 

@@ -1,0 +1,472 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Menu'
+	- var description = 'Description for Menu page'
+	- var bodyclass = 'Menu'
+
+block body
+	section.page-menu-header
+		.container-fluid
+			.row
+				.col
+					.page-text-menu
+						h5 RESTAURANT
+						h2 Menu
+						p JUICY FLAVOURS
+	section.page-menu-starters
+		.container-fluid
+			.row.page-menu-starters-hang-mot
+				.col-md-12
+					h4 Tasty
+					h5 STARTERS
+			.row.page-menu-starters-hang-hai
+				.col-md-4
+					.row
+						.page-menu-starters-hang-hai-cot-mot
+							.page-menu-starters-hang-hai-cot-mot-text
+								h3 ASPARAGUS & HALLOUMI SALAD
+								h5 (250 G)
+								p Beans / Halloumi 
+								p cheese / Asparagus / 
+								p Courgettes / Cherry 
+								p tomatoes
+								h6 18.90
+				.col-md-8.page-menu-starters-hang-hai-cot-hai
+					.row
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CHILLED PEA & CHERVIL SOUP WITH CREME FRAICHE 
+										span (250 G)
+								.price
+									p $10.00
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 AUBERGINE DIP
+										span (250 G)
+										span.cham .......................................
+								.price
+									p $14.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 SIMPLE SUSHI SALAD
+										span (250 G)
+										span.cham .............................
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 BEEF & BARLEY BUN WITH HORSERADISH  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 CHICKEN WINGS, AGRODOLCE STYLE  
+										span.cham .....
+										span (250 G)
+								.price
+									p $16.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CRAB CAKES 
+										span (250 G)
+										span.cham ..........................................
+								.price
+									p $18.50
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 WHITEBAIT & DILL MAYO
+										span (250 G)
+										span.cham .....................
+								.price
+									p $12.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 WATERMELON & FETA SALAD
+										span (250 G)
+										span.cham ...........
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span.cham .....
+										span (250 G)
+								.price
+									p $9.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+							
+		//- MENU hàng 2///////////////////////////////////////////////////////////////////////////////////////////
+	section.page-menu-starters-hai
+		.container-fluid
+			.row.page-menu-starters-hang-mot
+				.col-md-12
+					h4 Delicious
+					h5 MAIN
+			.row.page-menu-starters-hang-hai
+				.col-md-8.page-menu-starters-hang-hai-cot-hai.order-1
+					.row
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CHILLED PEA & CHERVIL SOUP WITH CREME FRAICHE 
+										span (250 G)
+								.price
+									p $10.00
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 AUBERGINE DIP
+										span (250 G)
+										span.cham .......................................
+								.price
+									p $14.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 SIMPLE SUSHI SALAD
+										span (250 G)
+										span.cham .............................
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 BEEF & BARLEY BUN WITH HORSERADISH  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 CHICKEN WINGS, AGRODOLCE STYLE  
+										span.cham .....
+										span (250 G)
+								.price
+									p $16.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CRAB CAKES 
+										span (250 G)
+										span.cham ..........................................
+								.price
+									p $18.50
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 WHITEBAIT & DILL MAYO
+										span (250 G)
+										span.cham .....................
+								.price
+									p $12.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 WATERMELON & FETA SALAD
+										span (250 G)
+										span.cham ...........
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span.cham .....
+										span (250 G)
+								.price
+									p $9.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+				.col-md-4.order-2
+					.row
+						.page-menu-starters-hang-hai-cot-mot
+							.page-menu-starters-hang-hai-cot-mot-text
+								h3 GONG BAO CHICKEN
+								h5 (250 G)
+								p Beans / Halloumi 
+								p cheese / Asparagus / 
+								p Courgettes / Cherry 
+								p tomatoes
+								h6 18.90
+		//- MENU HÀNG 3///////////////////////////////////////////////////////////////////////////////////////////
+	section.page-menu-starters-ba
+		.container-fluid
+			.row.page-menu-starters-hang-mot
+				.col-md-12
+					h4 Sweet
+					h5 DESSERT
+			.row.page-menu-starters-hang-hai
+				.col-md-4
+					.row
+						.page-menu-starters-hang-hai-cot-mot
+							.page-menu-starters-hang-hai-cot-mot-text
+								h3 CHERRY PIE
+								h5 (250 G)
+								p Beans / Halloumi 
+								p cheese / Asparagus / 
+								p Courgettes / Cherry 
+								p tomatoes
+								h6 18.90
+				.col-md-8.page-menu-starters-hang-hai-cot-hai
+					.row
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CHILLED PEA & CHERVIL SOUP WITH CREME FRAICHE 
+										span (250 G)
+								.price
+									p $10.00
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 AUBERGINE DIP
+										span (250 G)
+										span.cham .......................................
+								.price
+									p $14.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 SIMPLE SUSHI SALAD
+										span (250 G)
+										span.cham .............................
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 BEEF & BARLEY BUN WITH HORSERADISH  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 CHICKEN WINGS, AGRODOLCE STYLE  
+										span.cham .....
+										span (250 G)
+								.price
+									p $16.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CRAB CAKES 
+										span (250 G)
+										span.cham ..........................................
+								.price
+									p $18.50
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 WHITEBAIT & DILL MAYO
+										span (250 G)
+										span.cham .....................
+								.price
+									p $12.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 WATERMELON & FETA SALAD
+										span (250 G)
+										span.cham ...........
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span.cham .....
+										span (250 G)
+								.price
+									p $9.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+		
+		//- MENU HÀNG 4 //////////////////////////////////////////////////////////////////////////////////////
+	section.page-menu-starters-bon
+		.container-fluid
+			.row.page-menu-starters-hang-mot
+				.col-md-12
+					h4 Flavour
+					h5 DRINKS
+			.row.page-menu-starters-hang-hai
+				.col-md-8.page-menu-starters-hang-hai-cot-hai
+					.row
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CHILLED PEA & CHERVIL SOUP WITH CREME FRAICHE 
+										span (250 G)
+								.price
+									p $10.00
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 AUBERGINE DIP
+										span (250 G)
+										span.cham .......................................
+								.price
+									p $14.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 SIMPLE SUSHI SALAD
+										span (250 G)
+										span.cham .............................
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 BEEF & BARLEY BUN WITH HORSERADISH  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 CHICKEN WINGS, AGRODOLCE STYLE  
+										span.cham .....
+										span (250 G)
+								.price
+									p $16.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+						.col-sm-6.page-menu-starters-hang-hai-cot-hai-cot-mot
+							.product-food
+								.name-food
+									h4 CRAB CAKES 
+										span (250 G)
+										span.cham ..........................................
+								.price
+									p $18.50
+							.details-name-food
+								p Onions / Fresh flat-leaf parsley / Mashed potatoes / Pepper / Eggs / Tartare sauce
+							.product-food
+								.name-food
+									h4 WHITEBAIT & DILL MAYO
+										span (250 G)
+										span.cham .....................
+								.price
+									p $12.00
+							.details-name-food
+								p Fish / Lemon / Mayo / Fennel seeds
+							.product-food
+								.name-food
+									h4 WATERMELON & FETA SALAD
+										span (250 G)
+										span.cham ...........
+								.price
+									p $18.00
+							.details-name-food
+								p Watermelon / Red onion / Feta cheese / Fresh mint / Olive oil
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span (250 G)
+								.price
+									p $12.00
+							.details-name-food
+								p Beans / Halloumi cheese / Asparagus / Courgettes / Cherry tomatoes
+							.product-food
+								.name-food
+									h4 HALLOUMI WITH GRIDDLED VEGETABLES  
+										span.cham .....
+										span (250 G)
+								.price
+									p $9.00
+							.details-name-food
+								p Smoked streaky bacon / Frozen peas / Fresh chervil
+				.col-md-4
+					.row
+						.page-menu-starters-hang-hai-cot-mot
+							.page-menu-starters-hang-hai-cot-mot-text
+								h3 MOJITO
+								h5 (250 G)
+								p Beans / Halloumi 
+								p cheese / Asparagus / 
+								p Courgettes / Cherry 
+								p tomatoes
+								h6 18.90
+	section.subscribe-restaurant-menu
+		.container-fluid
+			.row.text-subscribe-restaurant
+				.col
+					h4 Subscribe to our
+					h3 NEWSLETTER
+					p Subscribe to our newsletter and receive 15% discount from your order.
+					figure
+						img.img-fluid(src="img/sale.png", alt="")
+			.row
+				.col.form-subscribe-restaurant
+					.form-subscribe.input-group.mb-3
+						input.form-control(type='email', placeholder="Your email@gmail.com", aria-label="Recipient's username", aria-describedby='basic-addon2')
+						.input-group-append
+							button#button-addon2.btn.btn-outline-secondary(type='button') subscribe

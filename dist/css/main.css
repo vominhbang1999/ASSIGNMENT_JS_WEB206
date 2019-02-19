@@ -7116,6 +7116,105 @@ header {
         color: white;
         font-size: medium; }
 
+footer {
+  background-color: #0b0d0f;
+  padding-top: 8rem;
+  padding-button: 2rem; }
+  @media (max-width: 991.98px) {
+    footer {
+      text-align: center; } }
+  footer .footer-cot1 p {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: right;
+    color: #999999; }
+    @media (max-width: 991.98px) {
+      footer .footer-cot1 p {
+        text-align: center; } }
+  footer .footer-cot1 ul {
+    list-style-type: none; }
+    @media (max-width: 991.98px) {
+      footer .footer-cot1 ul {
+        padding-left: 0; } }
+    footer .footer-cot1 ul li a {
+      font-family: "Poppins", Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      line-height: 22px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: white; }
+    footer .footer-cot1 ul li:hover a {
+      color: #cd9933; }
+  footer .cot-hai .row {
+    justify-content: center;
+    align-items: center; }
+    footer .cot-hai .row .online-reservation button {
+      background: none;
+      border: 2px solid #cc9933;
+      padding: 1rem 2rem;
+      font-family: "Poppins", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 19px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #cd9933;
+      outline: 0; }
+    footer .cot-hai .row .follow-restaurant {
+      padding-top: 2rem; }
+      footer .cot-hai .row .follow-restaurant p {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #999999; }
+      footer .cot-hai .row .follow-restaurant i {
+        font-size: 16px;
+        padding: 16px; }
+        footer .cot-hai .row .follow-restaurant i:hover {
+          color: #cd9933; }
+  footer .cot-ba h6 {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #cd9933; }
+    @media (max-width: 991.98px) {
+      footer .cot-ba h6 {
+        text-align: center; } }
+  footer .cot-ba h5 {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase; }
+    @media (max-width: 991.98px) {
+      footer .cot-ba h5 {
+        text-align: center; } }
+  footer .cot-ba .cot-ba-hang-hai {
+    padding-top: 1rem; }
+    footer .cot-ba .cot-ba-hang-hai p {
+      font-family: "Poppins", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 28px;
+      font-weight: 600;
+      text-align: left;
+      color: #999999;
+      line-height: 20px; }
+      @media (max-width: 991.98px) {
+        footer .cot-ba .cot-ba-hang-hai p {
+          text-align: center; } }
+
 .slider {
   height: 100%; }
   .slider .slider1 {
@@ -7436,5 +7535,481 @@ header {
         border-left-width: 0px; }
         .food-specialities .food-today-text .read-more:hover a span {
           color: #cd9933; }
+
+.menu-cart {
+  position: relative;
+  background-color: #efefef; }
+  .menu-cart .menu-food-cart {
+    position: absolute;
+    top: -4rem;
+    background: white;
+    width: 90%; }
+    .menu-cart .menu-food-cart .menu-food-title {
+      margin-top: 6rem; }
+      .menu-cart .menu-food-cart .menu-food-title p {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center; }
+      .menu-cart .menu-food-cart .menu-food-title h4 {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center; }
+    .menu-cart .menu-food-cart .menu-food-cart-mot {
+      list-style-type: none;
+      text-align: center;
+      margin-top: 5rem; }
+      .menu-cart .menu-food-cart .menu-food-cart-mot li a {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: black; }
+      .menu-cart .menu-food-cart .menu-food-cart-mot li:hover a {
+        color: #999966; }
+  .menu-cart .menu-cart-product {
+    padding: 0; }
+    @media (max-width: 991.98px) {
+      .menu-cart .menu-cart-product {
+        margin-top: 40rem; } }
+    .menu-cart .menu-cart-product .product-colum-one {
+      margin-right: 3rem; }
+      @media (max-width: 991.98px) {
+        .menu-cart .menu-cart-product .product-colum-one {
+          margin-right: 0rem; } }
+      .menu-cart .menu-cart-product .product-colum-one .all-product {
+        padding: 0rem;
+        margin-bottom: -1rem; }
+        .menu-cart .menu-cart-product .product-colum-one .all-product .product-details {
+          position: relative;
+          overflow: hidden;
+          margin-top: 0.2rem;
+          height: 96%; }
+          .menu-cart .menu-cart-product .product-colum-one .all-product .product-details figure img {
+            width: 99%; }
+          .menu-cart .menu-cart-product .product-colum-one .all-product .product-details:hover img {
+            outline: 3.5px solid  #cd9933; }
+            @media (max-width: 767.98px) {
+              .menu-cart .menu-cart-product .product-colum-one .all-product .product-details:hover img {
+                outline: 0px solid  #cd9933; } }
+          .menu-cart .menu-cart-product .product-colum-one .all-product .product-details figcaption {
+            position: absolute;
+            top: 0;
+            width: 99%;
+            height: 99.1%;
+            text-align: center;
+            transform: translateY(100%);
+            transition: 0.5s all ease-in-out; }
+            @media (max-width: 767.98px) {
+              .menu-cart .menu-cart-product .product-colum-one .all-product .product-details figcaption {
+                height: 100%; } }
+            .menu-cart .menu-cart-product .product-colum-one .all-product .product-details figcaption a {
+              color: white;
+              padding: 1rem;
+              border: 2px solid white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 8rem 6rem 5rem 6rem;
+              font-weight: 500; }
+            .menu-cart .menu-cart-product .product-colum-one .all-product .product-details figcaption p {
+              font-family: "Poppins", Helvetica, Arial, sans-serif;
+              font-size: 18px;
+              color: #fff;
+              font-weight: 400;
+              line-height: 1.3; }
+            .menu-cart .menu-cart-product .product-colum-one .all-product .product-details figcaption .second {
+              color: #cd9933; }
+          .menu-cart .menu-cart-product .product-colum-one .all-product .product-details:hover figcaption {
+            transform: translateY(0%);
+            background: linear-gradient(0deg, #232222e6, #1e1e2147); }
+
+.feedback-user {
+  background-color: #efefef;
+  padding-top: 10rem; }
+  .feedback-user .feedback-title {
+    width: 100%;
+    text-align: center; }
+    .feedback-user .feedback-title h4 {
+      font-family: "Great Vibes", Helvetica, Arial, sans-serif;
+      font-size: 56px;
+      line-height: 66px;
+      text-align: center;
+      color: #999966; }
+    .feedback-user .feedback-title h3 {
+      font-family: "Poppins", Helvetica, Arial, sans-serif;
+      font-size: 36px;
+      line-height: 46px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #333333; }
+  .feedback-user .slider2 {
+    margin: 2rem 0rem 8rem 2rem; }
+    @media (max-width: 991.98px) {
+      .feedback-user .slider2 {
+        margin: 0rem; } }
+    .feedback-user .slider2 p {
+      font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+      font-size: 24px;
+      line-height: 34px;
+      text-align: center;
+      margin: 0rem 4rem; }
+      @media (max-width: 767.98px) {
+        .feedback-user .slider2 p {
+          font-size: 16px; } }
+    .feedback-user .slider2 .owl-nav {
+      position: absolute;
+      top: -10%;
+      width: 100%; }
+      .feedback-user .slider2 .owl-nav .owl-prev, .feedback-user .slider2 .owl-nav .owl-next {
+        position: absolute;
+        outline: 0; }
+        .feedback-user .slider2 .owl-nav .owl-prev span, .feedback-user .slider2 .owl-nav .owl-next span {
+          font-size: 45px; }
+      .feedback-user .slider2 .owl-nav .owl-prev {
+        left: -1rem; }
+      .feedback-user .slider2 .owl-nav .owl-next {
+        right: -1rem; }
+      @media (max-width: 767.98px) {
+        .feedback-user .slider2 .owl-nav .owl-prev {
+          left: 1rem; }
+        .feedback-user .slider2 .owl-nav .owl-next {
+          right: 1rem; } }
+      .feedback-user .slider2 .owl-nav:hover .owl-prev, .feedback-user .slider2 .owl-nav:hover .owl-next {
+        background-color: #efefef; }
+        .feedback-user .slider2 .owl-nav:hover .owl-prev span, .feedback-user .slider2 .owl-nav:hover .owl-next span {
+          color: #212529; }
+
+.address-restaurant .text-address {
+  background-image: url("../img/home_datphong_2.jpg");
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative; }
+  .address-restaurant .text-address .text-address-hai {
+    width: 100%;
+    height: 100%;
+    padding: 8rem 0rem 0rem 0rem;
+    background-color: #000000b0;
+    position: absolute;
+    left: 0; }
+  .address-restaurant .text-address h3 {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
+  .address-restaurant .text-address p {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
+  .address-restaurant .text-address .abouts-us {
+    margin: 0; }
+    .address-restaurant .text-address .abouts-us a {
+      text-decoration: none;
+      border: 1px solid white;
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 0px;
+      border-left-width: 4px;
+      padding: 1rem; }
+      .address-restaurant .text-address .abouts-us a span {
+        font-weight: bold;
+        color: white;
+        font-size: 15px;
+        margin-top: 1rem; }
+    .address-restaurant .text-address .abouts-us:hover a {
+      border: 0px solid #cd9933;
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 0px;
+      border-left-width: 4px; }
+      .address-restaurant .text-address .abouts-us:hover a span {
+        color: #cd9933; }
+
+.address-restaurant .map-address {
+  position: relative; }
+  .address-restaurant .map-address .map-address-hai {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    right: 0; }
+
+.subscribe-restaurant, .subscribe-restaurant-menu {
+  min-height: 400px;
+  background-color: #16191e; }
+  @media (max-width: 767.98px) {
+    .subscribe-restaurant, .subscribe-restaurant-menu {
+      margin-top: 40rem; } }
+  .subscribe-restaurant .text-subscribe-restaurant, .subscribe-restaurant-menu .text-subscribe-restaurant {
+    padding-top: 8rem; }
+    .subscribe-restaurant .text-subscribe-restaurant h4, .subscribe-restaurant-menu .text-subscribe-restaurant h4 {
+      font-family: "Great Vibes", Helvetica, Arial, sans-serif;
+      font-size: 56px;
+      line-height: 66px;
+      text-align: center;
+      color: #999966; }
+    .subscribe-restaurant .text-subscribe-restaurant h3, .subscribe-restaurant-menu .text-subscribe-restaurant h3 {
+      font-family: "Poppins", Helvetica, Arial, sans-serif;
+      font-size: 36px;
+      line-height: 46px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: white; }
+    .subscribe-restaurant .text-subscribe-restaurant p, .subscribe-restaurant-menu .text-subscribe-restaurant p {
+      font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 2px;
+      text-align: center;
+      color: white; }
+    .subscribe-restaurant .text-subscribe-restaurant img, .subscribe-restaurant-menu .text-subscribe-restaurant img {
+      position: absolute;
+      top: 30%;
+      left: 35%; }
+      @media (max-width: 767.98px) {
+        .subscribe-restaurant .text-subscribe-restaurant img, .subscribe-restaurant-menu .text-subscribe-restaurant img {
+          left: 10%; } }
+  .subscribe-restaurant .form-subscribe-restaurant, .subscribe-restaurant-menu .form-subscribe-restaurant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; }
+    .subscribe-restaurant .form-subscribe-restaurant .form-subscribe, .subscribe-restaurant-menu .form-subscribe-restaurant .form-subscribe {
+      width: 350px; }
+      .subscribe-restaurant .form-subscribe-restaurant .form-subscribe input, .subscribe-restaurant-menu .form-subscribe-restaurant .form-subscribe input {
+        height: 4rem; }
+      .subscribe-restaurant .form-subscribe-restaurant .form-subscribe .input-group-append button, .subscribe-restaurant-menu .form-subscribe-restaurant .form-subscribe .input-group-append button {
+        padding: 1rem;
+        background-color: #cd9933;
+        border: 1px solid #cd9933;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase; }
+
+@media (max-width: 767.98px) {
+  .subscribe-restaurant-menu {
+    margin-top: 2rem; } }
+
+.page-menu-header {
+  background-image: url("../img/menu_background_1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .page-menu-header .page-text-menu h5 {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #cc9933; }
+  .page-menu-header .page-text-menu h2 {
+    padding-top: 6rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 128px;
+    line-height: 86px;
+    font-weight: 400;
+    color: white;
+    text-align: center; }
+  .page-menu-header .page-text-menu p {
+    padding-top: 5rem;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #999999; }
+
+.page-menu-starters, .page-menu-starters-hai, .page-menu-starters-ba, .page-menu-starters-bon {
+  padding: 5rem 2rem 0rem 2rem;
+  position: relative; }
+  @media (max-width: 991.98px) {
+    .page-menu-starters, .page-menu-starters-hai, .page-menu-starters-ba, .page-menu-starters-bon {
+      padding: 5rem 0rem 0rem 0rem; } }
+  .page-menu-starters .page-menu-starters-hang-mot, .page-menu-starters-hai .page-menu-starters-hang-mot, .page-menu-starters-ba .page-menu-starters-hang-mot, .page-menu-starters-bon .page-menu-starters-hang-mot {
+    padding-left: 5rem; }
+    @media (max-width: 991.98px) {
+      .page-menu-starters .page-menu-starters-hang-mot, .page-menu-starters-hai .page-menu-starters-hang-mot, .page-menu-starters-ba .page-menu-starters-hang-mot, .page-menu-starters-bon .page-menu-starters-hang-mot {
+        padding-left: 0rem; } }
+    .page-menu-starters .page-menu-starters-hang-mot h4, .page-menu-starters-hai .page-menu-starters-hang-mot h4, .page-menu-starters-ba .page-menu-starters-hang-mot h4, .page-menu-starters-bon .page-menu-starters-hang-mot h4 {
+      font-family: "Great Vibes", Helvetica, Arial, sans-serif;
+      font-size: 56px;
+      line-height: 66px;
+      text-align: center;
+      color: #999966; }
+    .page-menu-starters .page-menu-starters-hang-mot h5, .page-menu-starters-hai .page-menu-starters-hang-mot h5, .page-menu-starters-ba .page-menu-starters-hang-mot h5, .page-menu-starters-bon .page-menu-starters-hang-mot h5 {
+      font-family: "Poppins", Helvetica, Arial, sans-serif;
+      font-size: 36px;
+      line-height: 46px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #333333; }
+  .page-menu-starters .page-menu-starters-hang-hai .col-md-4, .page-menu-starters-hai .page-menu-starters-hang-hai .col-md-4, .page-menu-starters-ba .page-menu-starters-hang-hai .col-md-4, .page-menu-starters-bon .page-menu-starters-hang-hai .col-md-4 {
+    height: 500px;
+    padding-right: 0rem; }
+  .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot {
+    height: 600px;
+    background-image: url("../img/menu_shop_1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -9rem;
+    width: 100%; }
+    @media (max-width: 991.98px) {
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot {
+        height: 500px;
+        top: 0rem;
+        padding: 0rem 0rem 0rem 5rem; } }
+    .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text {
+      padding: 6rem 6rem;
+      text-align: center;
+      background: #22242580;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0; }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h3, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h3, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h3, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h3 {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: white; }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h5, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h5, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h5, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h5 {
+        padding: 1rem 0rem;
+        color: white;
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        text-align: center; }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text p, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text p, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text p, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text p {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
+        text-align: center;
+        color: white; }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h6, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h6, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h6, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-mot .page-menu-starters-hang-hai-cot-mot-text h6 {
+        padding: 1rem 0rem;
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffcc66; }
+  .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot {
+    padding-left: 5rem; }
+    @media (max-width: 991.98px) {
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot {
+        padding: 2rem 2.5rem; } }
+    .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food {
+      display: flex; }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food h4, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food h4, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food h4, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food h4 {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 600;
+        color: #1b1b1b; }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span {
+        font-weight: normal;
+        line-height: 1;
+        color: #777;
+        font-size: 11px; }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham {
+        font-size: 22px; }
+        @media (max-width: 991.98px) {
+          .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .name-food span.cham {
+            font-size: 21px; } }
+      .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .price p, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .price p, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .price p, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .product-food .price p {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 600;
+        color: #cc9933; }
+    .page-menu-starters .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .details-name-food p, .page-menu-starters-hai .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .details-name-food p, .page-menu-starters-ba .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .details-name-food p, .page-menu-starters-bon .page-menu-starters-hang-hai .page-menu-starters-hang-hai-cot-hai .page-menu-starters-hang-hai-cot-hai-cot-mot .details-name-food p {
+      font-family: "Poppins", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 22px;
+      font-weight: 500;
+      color: #666666; }
+
+.page-menu-starters-hai .page-menu-starters-hang-hai-cot-mot {
+  background-image: url("../img/menu_shop_2.jpg") !important; }
+
+.page-menu-starters-ba .page-menu-starters-hang-hai-cot-mot {
+  background-image: url("../img/menu_shop_3.jpg") !important; }
+
+.page-menu-starters-bon .page-menu-starters-hang-hai-cot-mot {
+  background-image: url("../img/menu_shop_4.jpg") !important; }
+
+.page-reservation-header {
+  background-image: url("../img/home_datsan_1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .page-reservation-header .page-text-reservation h5 {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #cc9933; }
+  .page-reservation-header .page-text-reservation h2 {
+    padding-top: 6rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 128px;
+    line-height: 86px;
+    font-weight: 400;
+    color: white;
+    text-align: center; }
+  .page-reservation-header .page-text-reservation p {
+    padding-top: 0rem;
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
+  .page-reservation-header .page-text-reservation h6 {
+    font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 3rem;
+    color: #cc9933; }
 
 /*# sourceMappingURL=main.css.map */
