@@ -48,11 +48,6 @@ $(window).on('scroll', function () {
 								});
 				}
 });
-// $(document).ready(function () {
-// 	$(window).on('scroll', function () {
-
-// 	});
-// });
 $(document).ready(function () {
 				$('.icon-button-menu').on('click', function () {
 								$('.menu-so-xuong').css({
