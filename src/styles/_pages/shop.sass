@@ -1,0 +1,113 @@
+.page-shop-on
+	height: 100px
+	background-color: #0b0d0f
+.page-shop
+	height: 200px
+	background-color: #efefef
+	.address-details-shop
+		width: 100%
+		padding: 1rem 0rem
+		p
+			padding: 2rem 0rem 1.5rem 0rem
+			border-bottom: 1px solid #d9d9d9
+			font-size: 13px
+			font-weight: 600
+		span
+			color: #c2c0c0
+.page-shop-title
+	h5 
+		font-family: "Great Vibes", Helvetica, Arial, sans-serif
+		font-size: 56px
+		line-height: 66px
+		color: #999966
+	p
+		text-transform: uppercase
+		font-size: 11px
+		font-weight: 600
+		color: #807f7f
+.page-shop-product
+	.menu-cart-product
+		padding: 0
+		.product-colum-one
+			+media-breakpoint-down(md)
+				margin-right: 0rem
+			.all-product
+				padding: 0rem 
+				margin-bottom: -1rem
+				.product-details
+					position: relative
+					overflow: hidden
+					margin-top: 0.2rem
+					height: 96%
+					figure
+						img
+							width: 99%
+					&:hover
+						img
+							outline: 3.5px solid  #cd9933
+							+media-breakpoint-down(sm)
+								outline: 0px solid  #cd9933
+					figcaption
+						position: absolute
+						top: 0
+						width: 99%
+						height: 98.5%
+						+media-breakpoint-down(sm)
+							height: 100%
+						text-align: center
+						transform: translateY(100%)
+						transition: 0.5s all ease-in-out
+						.boc-button-add-cart
+							width: 100%
+							padding: 8rem 5rem
+							+media-breakpoint-up(sm)
+								padding: 3rem 5rem
+							+media-breakpoint-up(lg)
+								padding: 6rem 5rem
+							display: flex
+							justify-content: center
+							align-items: center
+							button
+								color: white
+								padding: 1rem 3rem
+								+media-breakpoint-up(sm)
+									padding: 1rem 1rem
+								+media-breakpoint-up(lg)
+									padding: 1rem 2rem
+								border: 2px solid white
+								display: flex
+								justify-content: center
+								align-items: center
+								font-weight: 500
+								background-color: #f0f8ff00
+								outline: 0
+						p
+							font-family: "Poppins", Helvetica, Arial, sans-serif
+							font-size: 14px
+							color: #fff
+							font-weight: 400
+							line-height: 1.3
+						.second
+							color: #cd9933
+					&:hover
+						figcaption
+							transform: translateY(0%)
+							background: linear-gradient(0deg, #232222e6, #1e1e2147)
+							
+	// /////////////////////////////////////////////PHÂN TRANG//////////////////////////////////////////////
+.navigation
+	#page-navigation
+		width: 100%
+		display: flex
+		justify-content: center
+		align-items: center
+		height: 150px
+	.page-link 
+		margin: 0rem 0.5rem
+		color: #00000069
+		outline: 0
+	.prev-link ,.next-link
+		color: #00000069
+	.active_page
+		border: 2px solid #00000069
+		color: #00000069

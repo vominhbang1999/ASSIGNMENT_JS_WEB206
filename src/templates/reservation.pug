@@ -21,7 +21,7 @@ block body
 				.col-md-12
 					.row.page-reservation-title
 						.tt
-							h5 BOOK A TABLE
+							h5 Book a table
 					.row.page-reservation-text
 						.col-sm-2
 						.col-sm-8
@@ -29,14 +29,14 @@ block body
 								.form-row
 									.form-group.col-md-4.pr-1
 										label(for='inputState') DATE
-										input#datepicker.form-control.p-0(width='235px')
+										input#datepicker.form-control
 										script.
 											$('#datepicker').datepicker({
 											uiLibrary: 'bootstrap4'
 											});
 									.form-group.col-md-4.pl-2
 										label(for='inputState') TIME
-										input#datepicker1.form-control(width='235px')
+										input#datepicker1.form-control
 										script.
 											$('#datepicker1').timepicker({
 											uiLibrary: 'bootstrap4'
@@ -60,9 +60,9 @@ block body
 						.col-sm-2
 			.row.pt-5
 				.col-md-12
-					.row.page-reservation-title
+					.row.page-reservation-title.pt-3
 						.tt
-							h5 CONTACT DETAILS
+							h5 Contact details
 					.row.page-reservation-text
 						.col-md-2
 						.col-md-8
@@ -89,9 +89,13 @@ block body
 								.form-row
 									.form-group.w-100
 										label(for='exampleFormControlTextarea1') ADD MESSAGE
-										textarea#exampleFormControlTextarea1.form-control(rows='3' , col='12')
+										textarea#exampleFormControlTextarea1.form-control(rows='5' , col='12')
 						.col-md-2
 			.row.pt-5.pb-5
-				.col-sm-2.offset-sm-5
-					button.btn.btn-warning(type="button") REQUEST BOOKING
+				.col
+					.request-booking
+						button.btn.btn-warning(type="button") REQUEST BOOKING
+
+
+
 

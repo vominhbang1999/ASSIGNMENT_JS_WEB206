@@ -77,7 +77,9 @@ header
 				height: 58px
 				margin-left: 1rem
 				padding: 0
-
+				&:hover
+					.info-shoping
+						display: block
 				ul
 					display: flex
 					list-style-type: none
@@ -92,6 +94,15 @@ header
 						height: 58px
 						i
 							font-size: 25px
+					.Item
+						span
+							font-weight: bold
+					.Total
+						span
+							font-size: 11px
+							line-height: 1
+							font-weight: bold
+							color: #c93
 					.dropdown
 						display: flex
 						justify-content: center
@@ -111,33 +122,33 @@ header
 							text-align: center
 					
 				.info-shoping
-					height: 0px
-					p
-						font-size: 0
-				&:hover
-					.info-shoping
-						position: absolute
-						display: block
-						transition: 1s all ease-in-out
-						top: 4.1rem
-						right: 0%
-						width: 347px 
-						height: 60px
-						background-color: #1a1c20
-						color: white
+					position: absolute
+					right: 0
+					width: 345px
+					top: 4.2rem
+					display: none
+					.product-details
 						display: flex
+						background: #15171a
 						justify-content: center
 						align-items: center
-						p
-							display: flex
-							justify-content: center
-							align-items: center
-							font-size: 15px
-						.details
-							width: 100%
-							border-top: 1px solid #797272
-							border-bottom: 1px solid #797272
-							transition: 1s all ease-in-out
+						border-bottom: 2px solid
+						button.sc-add-to-cart
+							display: none
+						img
+							width: 50px
+						figcaption
+							padding: 1rem 3rem 0rem 3rem
+							text-align: left
+							color: #666
+							font-weight: bold
+							p:last-child
+								color: #c93
+						i
+							font-size: 20px
+							color: white
+						
+
 			.reservation
 				+media-breakpoint-down(lg)
 					display: none

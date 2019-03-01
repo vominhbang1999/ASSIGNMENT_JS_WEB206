@@ -116,18 +116,17 @@
             <ul>
               <li class="nav-item icon-shoping-cart"><a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a></li>
               <li class="nav-item Item"><a class="nav-link" href="#">Item<br><span>0</span></a></li>
-              <li class="nav-item Total"><a class="nav-link" href="#">Total<br><span>0</span></a></li>
+              <li class="nav-item Total"><a class="nav-link" href="#">Price<br><span>0</span></a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"></a></li>
             </ul>
-            <div class="info-shoping">
-              <div class="details">
-                <p>No product</p>
-              </div>
+            <div class="sp-hide-cart">
+              <div class="info-shoping"></div>
+              <div class="check-out"></div>
             </div>
           </div>
           <div class="reservation">
             <ul>
-              <li class="nav-item active"><a class="nav-link" href="#">Reservation</a></li>
+              <li class="nav-item active"><a class="nav-link" href="#" id="cart">Reservation</a></li>
             </ul>
           </div>
         </div>
@@ -728,34 +727,34 @@
           </div>
         </div>
       </section>
-      <section class="subscribe-restaurant-menu">
-        <div class="container-fluid">
-          <div class="row text-subscribe-restaurant">
-            <div class="col">
-              <h4>Subscribe to our</h4>
-              <h3>NEWSLETTER</h3>
-              <p>Subscribe to our newsletter and receive 15% discount from your order.</p>
-              <figure><img class="img-fluid" src="img/sale.png" alt=""></figure>
-            </div>
+    </main><!-- ////////////// End Main ////////////// -->
+<!-- ////////////// Footer ////////////// --><!-- ////////////// FOOTER ////////////// -->
+    <section class="subscribe-restaurant">
+      <div class="container-fluid">
+        <div class="row text-subscribe-restaurant">
+          <div class="col">
+            <h4>Subscribe to our</h4>
+            <h3>NEWSLETTER</h3>
+            <p>Subscribe to our newsletter and receive 15% discount from your order.</p>
+            <figure><img class="img-fluid" src="img/sale.png" alt=""></figure>
           </div>
-          <div class="row">
-            <div class="col form-subscribe-restaurant">
-              <div class="form-subscribe input-group mb-3">
-                <input class="form-control" type="email" placeholder="Your email@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" id="button-addon2" type="button">subscribe</button>
-                </div>
+        </div>
+        <div class="row">
+          <div class="col form-subscribe-restaurant">
+            <div class="form-subscribe input-group mb-3">
+              <input class="form-control" type="email" placeholder="Your email@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="button-addon2" type="button">subscribe</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main><!-- ////////////// End Main ////////////// -->
-<!-- ////////////// Footer ////////////// --><!-- ////////////// FOOTER ////////////// -->
+      </div>
+    </section>
     <footer class="restaurant-footer">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="row footer-cot1">
               <div class="col-sm-8">
                 <p>Chef Taylor Bonnyman, working in </p>
@@ -775,7 +774,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 cot-hai">
+          <div class="col-md-6 col-lg-4 cot-hai">
             <div class="row">
               <div class="online-reservation">
                 <button class="btn" id="button-addon2" type="button">online-reservation</button>
@@ -787,7 +786,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 cot-ba">
+          <div class="col-md-12 col-lg-4 cot-ba">
             <h6>+84 038 4352 620</h6>
             <h5>vominhbang1999@gmail.com</h5>
             <div class="cot-ba-hang-hai">
@@ -805,6 +804,5 @@
     <!-- endinject -->
     <script src="./js/thuvien.js"></script>
     <script src="./js/main.js"></script>
-    <script src="./js/slider.min.js"></script>
   </body>
 </html>

@@ -1,5 +1,10 @@
 ///////////////////////////////////////////////////RESERVATION PAGE MENU /////////////////////////////////////////
-.page-reservation-header
+.page-header-new
+	background-image: url('../img/new_background.jpg') !important
+.page-header-contact
+	background-image: url('../img/home_datphong_2.jpg') !important
+
+.page-reservation-header,.page-header-new,.page-header-contact
 	background-image: url('../img/home_datsan_1.jpg')
 	background-size: cover
 	background-position: center
@@ -21,6 +26,8 @@
 			padding-top: 6rem
 			font-family: 'Great Vibes', cursive
 			font-size: 128px
+			+media-breakpoint-down(sm)
+				font-size: 90px
 			line-height: 86px
 			font-weight: 400
 			color: white
@@ -50,26 +57,29 @@
 			width: 100%
 			text-align: center
 			h5
-				border: none
-				text-transform: uppercase
-				font-size: 18px
+				font-size: 36px
 				font-weight: 600
 				margin-bottom: 40px
-				color: #000000d1
-	button
-		font-weight: 600
-		font-size: 13px
-		padding: 14px 25px
-		white-space: initial
-		-webkit-transition: all .2s ease-out
-		transition: all .2s ease-out
-		color: #000000
-		background-color: #cc9933
-		border-color: transparent
-		border-radius: 0
-		text-transform: uppercase
-		font-size: 12px
-		margin: 0 auto
+				font-family: "Great Vibes", Helvetica, Arial, sans-serif
+				color: #999966
+	.request-booking
+		display: flex
+		justify-content: center
+		align-items: center
+		button
+			font-weight: 600
+			font-size: 13px
+			padding: 14px 25px
+			white-space: initial
+			-webkit-transition: all .2s ease-out
+			transition: all .2s ease-out
+			color: #000000
+			background-color: #cc9933
+			border-color: transparent
+			border-radius: 0
+			text-transform: uppercase
+			font-size: 12px
+			margin: 0 auto
 	.page-reservation-text
 		input,textarea,select
 			border: 2px solid #00000040 !important
@@ -86,9 +96,14 @@
 			justify-content: center
 			align-items: center
 			border: 0px
+			width: 50px
+			background-color: #cc9933
 			i
 				top: 5px
 				left: 15px
+				color: black
+			&:hover
+				background-color: #0000004f
 		.input-group-reservation,.input-group-details,
 			.input-group-icon
 				width: 50px
@@ -98,6 +113,9 @@
 				align-items: center
 				i
 					font-size: 17px
+				&:hover
+					background-color: #0000004f
+					cursor: pointer
 		
 
 
