@@ -19,6 +19,7 @@
 	},
 	"homepage": "https://fullstackvietnam.com",
 	"dependencies": {
+		"animate.css": "^3.7.0",
 		"babel-core": "^6.26.3",
 		"babel-preset-env": "^1.7.0",
 		"bootstrap-datetimepicker-npm": "^4.17.37-npm",

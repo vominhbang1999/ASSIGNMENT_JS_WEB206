@@ -160,6 +160,41 @@ $(document).ready(function () {
 	});
 });
 
+$(document).ready(function () {
+	$('.load').delay(4000).fadeOut(400);
+});
+
+$(window).scroll(function () {
+	if ($(window).scrollTop() > 35) {
+		$('body').css({
+			'overflow-x': 'hidden'
+		});
+		$('.hieuungani1').addClass('animated   fadeInRight');
+	} else if ($(window).scrollTop() < 35) {
+		$('.hieuungani1').removeClass('animated  fadeInRight');
+	}
+});
+$(window).scroll(function () {
+	if ($(window).scrollTop() > 1200) {
+		$('body').css({
+			'overflow-x': 'hidden'
+		});
+		$('.hieuungani2').addClass('animated  fadeInLeft');
+	} else if ($(window).scrollTop() < 1200) {
+		$('.hieuungani2').removeClass('animated  fadeInLeft');
+	}
+});
+$(window).scroll(function () {
+	if ($(window).scrollTop() > 1800) {
+		$('body').css({
+			'overflow-x': 'hidden'
+		});
+		$('.hieuungani3').addClass('animated  fadeInRight');
+	} else if ($(window).scrollTop() < 1800) {
+		$('.hieuungani3').removeClass('animated  fadeInRight');
+	}
+});
+
 $('.slider1').owlCarousel({
 	loop: true,
 	nav: true,

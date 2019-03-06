@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7945,6 +7946,73 @@ footer {
 @media (max-width: 767.98px) {
   .subscribe-restaurant-menu {
     margin-top: 2rem; } }
+
+.load {
+  width: 100%;
+  height: 100%;
+  background: #2f2f2f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000000000;
+  display: block;
+  overflow: hidden; }
+
+.load img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  margin-top: -75px;
+  margin-left: -75px; }
+
+/*cách 2 dùng css*/
+.loader {
+  width: 100%;
+  height: 100%;
+  background: #010101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000000000;
+  display: block;
+  overflow: hidden;
+  transition: 5s all ease-in-out; }
+  .loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%; }
+
+.icon {
+  font-size: 80px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px; }
+
+.xoay {
+  animation: xoay 1.5s linear infinite;
+  -moz-animation: xoay 1.5s linear infinite;
+  -ms-animation: xoay 1.5s linear infinite;
+  -o-animation: xoay 1.5s linear infinite;
+  -webkit-animation: xoay 1.5s linear infinite; }
+
+@-webkit-keyframes xoay {
+  from {
+    -ms-transform:rotate(0deg) { }
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -ms-transform:rotate(360deg) { }
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 
 .page-menu-header {
   background-image: url("../img/menu_background_1.jpg");
